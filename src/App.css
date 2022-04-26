@@ -10,7 +10,7 @@ body {
 
 .container {
   background: #fff;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
 .hero {
@@ -233,4 +233,147 @@ h2 {
 .btn {
   display: flex;
   align-items: center;
+}
+
+/* Contact Page */
+.Contact {
+  box-sizing: border-box;
+}
+.Head {
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  background-color: #f64c18;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  min-height: 500px;
+  font-size: 4rem;
+  background: linear-gradient(rgb(236, 157, 11, 0.5), rgb(255, 0, 0, 0.5)),
+  url("./components/Contact/CoupleAtRestaurant_Lead.jpg") center/cover no-repeat;
+}
+
+.contact-text {
+  color: #8f8481;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.form {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 2rem;
+  width: 70%;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 3px;
+  border-color: #ee9539;
+  text-transform: uppercase;
+}
+
+.form:hover{
+  transform: scale(1.05);
+  border-color: #f64c18;
+  transition: all 0.2s;
+}
+
+.btn-c {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 2rem;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background: #f64c18;
+  width: 200px;
+  text-align: center;
+  font-size: 1.0rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.btn-c:hover {
+  background: #ee9539;
+  transform: scale(0.9);
+}
+
+.social-icon {
+  font-size: 60px;
+  color: #f64c18;
+  text-align: center;
+  margin: 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon:hover {
+  color: #ee9539;
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: #ee9539;
+  color: #fff;
+  transition: all 0.5s;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar:hover {
+box-shadow: 1px 1px 10px #222;
+}
+
+.navbar .nav-links {
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin: 10px;
+  list-style: none;
+}
+
+/* Product */
+
+.Head2{
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  background-color: #f64c18;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  min-height: 400px;
+  font-size: 4rem;
+}
+
+.Boxes {
+  display: flex;
+}
+
+.Box:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.5s;
+  box-shadow: 1px 1px 10px #222;
 }
