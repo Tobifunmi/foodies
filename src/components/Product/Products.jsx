@@ -86,7 +86,7 @@ export const Products = () => {
                   Price: ${s.price}
                 </p>
               </div >
-              <a href=""><span style={{marginRight:"10px"}}>Add to Cart</span><FontAwesomeIcon icon={faShoppingCart} />
+              <a href="/product"><span style={{marginRight:"10px"}}>Add to Cart</span><FontAwesomeIcon icon={faShoppingCart} />
               </a>
               </div>
             </div>
