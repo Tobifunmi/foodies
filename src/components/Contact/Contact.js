@@ -7,9 +7,7 @@ import React from 'react'
 export default function Contact() {
   return (
     <div className = 'Contact'>
-      {/* Assuming the Navbar is here*/}
       <h1 className = "Head">Reach Out to Us! </h1>
-      {/* Picture link - https://www.foodbusinessnews.net/ext/resources/2020/4/CoupleAtRestaurant_Lead.jpg?t=1587991293&width=1080 */}
       
       <div>
         <p className = 'contact-text'>
@@ -33,10 +31,12 @@ export default function Contact() {
       <div>
         <p className='contact-text'>You can also send a message directly to our social media Platforms:</p>
       </div>
+      <div className = 'socials'>
         <a href="facebook.com"><FontAwesomeIcon icon ={faFacebook} className = 'social-icon'></FontAwesomeIcon></a>
         <a href="instagram.com"><FontAwesomeIcon icon ={faInstagram} className = 'social-icon'></FontAwesomeIcon></a>
         <a href="whatsapp.com"><FontAwesomeIcon icon ={faWhatsapp} className = 'social-icon'></FontAwesomeIcon></a>
         <a href="twitter.com"><FontAwesomeIcon icon ={faTwitter} className = 'social-icon'></FontAwesomeIcon></a>
+      </div>
     </div>
   )
 }

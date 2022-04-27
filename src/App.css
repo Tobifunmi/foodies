@@ -1,3 +1,6 @@
+/* *{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
 body {
   box-sizing: border-box;
   padding: 0;
@@ -18,6 +21,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  margin-top: 80px;
+  padding: 20px;
 }
 
 h1 {
@@ -114,9 +119,9 @@ h1 {
 }
 
 .special-meal-container img {
-  width: 420px;
+  width: 270px;
   object-fit: cover;
-  height: 270px;
+  height: 150px;
   border-radius: 20px;
 }
 
@@ -254,7 +259,7 @@ h2 {
   min-height: 500px;
   font-size: 4rem;
   background: linear-gradient(rgb(236, 157, 11, 0.5), rgb(255, 0, 0, 0.5)),
-  url("./components/Contact/CoupleAtRestaurant_Lead.jpg") center/cover no-repeat;
+  url('https://www.foodbusinessnews.net/ext/resources/2020/4/CoupleAtRestaurant_Lead.jpg?t=1587991293&width=1080') center/cover no-repeat;
 }
 
 .contact-text {
@@ -267,7 +272,7 @@ h2 {
 }
 
 .form {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: inherit;
   margin-left: 2rem;
   width: 70%;
   height: 40px;
@@ -305,6 +310,12 @@ h2 {
   transform: scale(0.9);
 }
 
+.socials {
+  width: fit-content;
+  margin: 0 auto;
+  
+}
+
 .social-icon {
   font-size: 60px;
   color: #f64c18;
@@ -324,29 +335,126 @@ h2 {
 /* Navbar */
 .navbar {
   position: fixed;
+  top:0;
   width: 100%;
-  height: 50px;
+  height: 70px;
   display: flex;
-  background-color: #ee9539;
+  background-color: rgb(30, 27, 27);
   color: #fff;
   transition: all 0.5s;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 
+.navbar h1 {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
 .navbar:hover {
 box-shadow: 1px 1px 10px #222;
 }
 
 .navbar .nav-links {
   display: flex;
+  margin-right: 2rem;
 }
 
 .navbar .nav-links li {
   margin: 10px;
   list-style: none;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar .nav-links li a:hover {
+  color: #ee9539;
+}
+
+/* Footer */
+.footer-container h1, .footer-container p {
+  margin: 0px 0;
+}
+
+.footer-container ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-container ul a:hover{
+  color: #ee9539;
+}
+
+.footer-container li a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: rgb(30, 27, 27);
+  padding: 1rem;
+  color: #ddd;
+}
+
+.footer-major {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footer-credit {
+  text-align: center;
+}
+
+.footer-text {
+  flex-grow: 1;
+}
+
+/* About */
+.about {
+  margin: 0 auto;
+  background-color: rgba(255, 166, 0, 0.252);
+  padding-bottom: 20px;
+  overflow-x: hidden;
+}
+
+.text {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.text span {
+  width: 200px;
+}
+
+.text h1 {
+  color: orange;
+  padding-top: 30px;
+}
+
+.bottomimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  /* overflow: hidden; */
+  overflow: hidden;
+}
+
+.bottomimg img {
+  border-radius: 1rem;
+  width: 450px;
+}
+
+.image-1{
+  transform: rotate(90deg);
 }
 
 /* Product */
@@ -356,8 +464,7 @@ box-shadow: 1px 1px 10px #222;
   box-sizing: border-box;
   justify-content: center;
   text-align: center;
-  background-color: #f64c18;
-  color: #fff;
+  background-color: rgba(255, 166, 0, 0.252);
   width: 100%;
   margin: 0;
   padding-left: 2rem;
@@ -367,13 +474,43 @@ box-shadow: 1px 1px 10px #222;
   font-size: 4rem;
 }
 
-.Boxes {
-  display: flex;
+.products-container {
+  margin: 50px 50px;
 }
 
-.Box:hover{
-  transform: scale(1.05);
-  cursor: pointer;
-  transition: all 0.5s;
-  box-shadow: 1px 1px 10px #222;
+.product-meal-container {
+  display: flex;
+  justify-content: space-around;
+  /* max-width: 900px; */
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.product-meal-container img {
+  width: 270px;
+  object-fit: cover;
+  border-radius: 20px;
+  height: 150px;
+}
+
+.cart-container a {
+  font-size: 1.5rem ;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f64c18;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+.cart-container a:hover{
+  transform: scale(1.5);
+  background-color: #fff;
+  color: #f64c18;
+}
+
+.cart-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

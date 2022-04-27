@@ -19,7 +19,7 @@ export const OnTheGo = () => {
               praesentium dio. Sequi, ex nobis?
             </p>
           </div>
-          <a href="/">Order Now</a>
+          <a href="/product">Order Now</a>
         </div>
       </div>
       <div className="foodies-app-container">
