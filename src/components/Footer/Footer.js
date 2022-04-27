@@ -17,7 +17,7 @@ function Footer(){
     </div>
     
       <div style = {{textAlign: 'center'}}>
-        <p> &copy; SideHustle ReactJS interns (group 82) 2022 </p>
+        <p> &copy; SideHustle ReactJS Interns (group 82) 2022 </p>
       </div>
     </div>
   );

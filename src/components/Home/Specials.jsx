@@ -9,14 +9,14 @@ const coleslaw = {
 const pasta = {
   id: 2,
   img: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-  title: "Pasta Fotios",
+  title: "Fotios",
   price: 80,
   isAvailable: true,
 };
 const pancakes = {
   id: 3,
   img: "https://images.pexels.com/photos/357573/pexels-photo-357573.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-  title: "Breakfast Pancakes",
+  title: "Pancakes",
   price: 150,
   isAvailable: false,
 };
@@ -47,7 +47,7 @@ export const Specials = () => {
                     marginTop: "-15px",
                   }}
                 >
-                  {!s.isAvailable ? "No meal" : "Ready"}
+                  {!s.isAvailable ? "Unavailable" : "Ready"}
                 </p>
               </div>
               <p>Price: ${s.price}</p>

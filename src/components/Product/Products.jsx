@@ -72,19 +72,19 @@ export const Products = () => {
      
       <div className="product-meal-container">
         {specials.map((s) => (
-          <div style={{marginBottom: "20px"}} key={s.id}>
+          <div style={{marginBottom: "40px", marginRight: "20px"}} key={s.id}>
             <img src={s.img} alt="" />
             <div className="product-meal-text">
               <div className = "cart-container">
               <div className="cart-info">
                 <p>{s.title}</p>
-                <p
+                <span
                   style={{
                     color: "#222",
                   }}
                 >
                   Price: ${s.price}
-                </p>
+                </span>
               </div >
               <a href="/product"><span style={{marginRight:"10px"}}>Add to Cart</span><FontAwesomeIcon icon={faShoppingCart} />
               </a>
