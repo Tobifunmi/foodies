@@ -32,10 +32,10 @@ export default function Contact() {
         <p className='contact-text'>You can also send a message directly to our social media Platforms:</p>
       </div>
       <div className = 'socials'>
-        <a href="facebook.com"><FontAwesomeIcon icon ={faFacebook} className = 'social-icon'></FontAwesomeIcon></a>
-        <a href="instagram.com"><FontAwesomeIcon icon ={faInstagram} className = 'social-icon'></FontAwesomeIcon></a>
-        <a href="whatsapp.com"><FontAwesomeIcon icon ={faWhatsapp} className = 'social-icon'></FontAwesomeIcon></a>
-        <a href="twitter.com"><FontAwesomeIcon icon ={faTwitter} className = 'social-icon'></FontAwesomeIcon></a>
+        <a href="https://www.facebook.com"><FontAwesomeIcon icon ={faFacebook} className = 'social-icon'></FontAwesomeIcon></a>
+        <a href="https://www.instagram.com"><FontAwesomeIcon icon ={faInstagram} className = 'social-icon'></FontAwesomeIcon></a>
+        <a href="https://www.whatsapp.com"><FontAwesomeIcon icon ={faWhatsapp} className = 'social-icon'></FontAwesomeIcon></a>
+        <a href="https://www.twitter.com"><FontAwesomeIcon icon ={faTwitter} className = 'social-icon'></FontAwesomeIcon></a>
       </div>
     </div>
   )

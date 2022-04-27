@@ -193,7 +193,8 @@ h2 {
   padding-top: 50px;
 }
 .foodies-app-container img {
-  width: 900px;
+  width: 600px;
+  position: relative;
 }
 
 .foodies-app {
@@ -258,6 +259,7 @@ h2 {
   display: flex;
   min-height: 500px;
   font-size: 4rem;
+  overflow-x: hidden;
   background: linear-gradient(rgb(236, 157, 11, 0.5), rgb(255, 0, 0, 0.5)),
   url('https://www.foodbusinessnews.net/ext/resources/2020/4/CoupleAtRestaurant_Lead.jpg?t=1587991293&width=1080') center/cover no-repeat;
 }
@@ -343,7 +345,6 @@ h2 {
   color: #fff;
   transition: all 0.5s;
   text-decoration: none;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
@@ -400,7 +401,7 @@ box-shadow: 1px 1px 10px #222;
   width: 100%;
   background-color: rgb(30, 27, 27);
   padding: 1rem;
-  color: #ddd;
+  color: #fff;
 }
 
 .footer-major {
@@ -421,6 +422,7 @@ box-shadow: 1px 1px 10px #222;
   margin: 0 auto;
   background-color: rgba(255, 166, 0, 0.252);
   padding-bottom: 20px;
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -472,6 +474,7 @@ box-shadow: 1px 1px 10px #222;
   display: flex;
   min-height: 400px;
   font-size: 4rem;
+  overflow-x: hidden;
 }
 
 .products-container {
