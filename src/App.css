@@ -527,14 +527,3 @@ box-shadow: 1px 1px 10px #222;
   align-items: flex-start;
   justify-content: space-between;
 }
-
-.cart-info p{
-  font-size: 1.2rem;
-  margin-bottom: 0;
-}
-
-.cart-info span {
-  font-size: 1.2rem;
-  margin-bottom: 1em;
-  font-weight: 600;
-}
